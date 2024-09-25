@@ -72,11 +72,11 @@ dotnet run
 
 
 ### 6. Additional Information
-1. Folder Structure
+1. **Folder Structure**
     - TechFixBackend.sln: Solution file.
     - TechFixBackend/: Contains the core project files (models, controllers, services, etc.).
     - appsettings.json: Configuration file for database connections and other settings.
-2. Technologies Used
+2. **Technologies Used**
     - ASP.NET Core 8.0
     - Microsoft SQL Server
     - Entity Framework Core for database access
