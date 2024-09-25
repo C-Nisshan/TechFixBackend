@@ -52,33 +52,37 @@ To start the application locally
 dotnet run
 ```
 
-### Features
-  1. User Authentication
-        Roles: Admin and Procurement Staff.
-        Authentication: Users are required to log in with their credentials to access the system.
-        Passwords are securely hashed using SHA256.
-  2. Inventory Management
-        Suppliers provide real-time inventory data that is synchronized with the system.
-        Track products, stock levels, and supplier details in the Inventory table.
-  3. Quote Requests
-        Procurement staff can request quotes from suppliers, providing information such as products, quantities, and expected delivery dates.
-        The Quotes and QuoteItems tables track the quote details.
-  4. Order Placement
-        Orders can be placed based on quotes or as direct purchases.
-        The Orders and OrderItems tables record all purchase details, including the supplier, products, and prices.
+## Features
+1. **User Authentication**
+   - Roles: Admin and Procurement Staff.
+   - Authentication: Users are required to log in with their credentials to access the system.
+   - Passwords are securely hashed using SHA256.
+
+2. **Inventory Management**
+   - Suppliers provide real-time inventory data that is synchronized with the system.
+   - Track products, stock levels, and supplier details in the Inventory table.
+
+3. **Quote Requests**
+   - Procurement staff can request quotes from suppliers, providing information such as products, quantities, and expected delivery dates.
+   - The Quotes and QuoteItems tables track the quote details.
+
+4. **Order Placement**
+   - Orders can be placed based on quotes or as direct purchases.
+   - The Orders and OrderItems tables record all purchase details, including the supplier, products, and prices.
 
 
-### Additional Information
-  1. Folder Structure
-        TechFixBackend.sln: Solution file.
-        TechFixBackend/: Contains the core project files (models, controllers, services, etc.).
-        appsettings.json: Configuration file for database connections and other settings.
-  2. Technologies Used
-        ASP.NET Core 8.0
-        Microsoft SQL Server
-        Entity Framework Core for database access
-        JWT Authentication for secure login
+### 6. Additional Information
+1. Folder Structure
+    - TechFixBackend.sln: Solution file.
+    - TechFixBackend/: Contains the core project files (models, controllers, services, etc.).
+    - appsettings.json: Configuration file for database connections and other settings.
+2. Technologies Used
+    - ASP.NET Core 8.0
+    - Microsoft SQL Server
+    - Entity Framework Core for database access
+    - JWT Authentication for secure login
 
 ### License
-This project is open-source and available under the MIT License.
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
+
 
