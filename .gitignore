@@ -1,0 +1,36 @@
+ECHO is on.
+
+# Build directories
+bin/
+obj/
+
+# User-specific files (VS-related)
+*.user
+*.suo
+*.csproj.user
+*.rsuser
+*.sln.docstates
+*.vs/
+.vscode/
+
+# Log and database files
+*.log
+*.db
+*.sqlite
+
+# Sensitive information
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# Package directories
+node_modules/
+packages/
+npm-debug.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# EF migration history
+Migrations/
